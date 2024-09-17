@@ -1,0 +1,198 @@
+body
+{
+	margin: auto;
+	width: 90%;
+	background-color: #BFD9DF;
+	
+}
+
+
+header
+{
+	width: 100%;
+	background-color: #62A5AC;
+	color: #0C0817;
+	text-align: center;
+	font-size: 200%;
+	padding-top: 0.1em;
+	padding-bottom: 0.02em;
+}
+
+
+h2
+{
+   text-align: center;
+   color: #000000;
+   font-family: Times New Roman
+}
+
+h3
+{
+	width: 100%;
+	font-size: 160%;
+	text-align: center;
+   color: #000000;
+   font-family: Times New Roman
+}   
+h4
+{
+	width: 100%;
+	font-size: 150%;
+	text-align: center;
+   color: #000000;
+   font-family: Times New Roman
+}   
+h5
+{
+	width: 100%;
+	font-size: 150%;
+	text-align: left;
+   color: #000000;
+   font-family: Times New Roman
+}   
+h6
+{
+	width: 100%;
+	font-size: 100%;
+	text-align: center;
+    color: #000000;
+    font-family: georgia
+}   
+
+main {
+	width: 100%;
+    justify-content: center;
+    align-items: center;
+	}
+	
+section {
+	width: 100%;
+	font-size: 101%;
+	background-color: #BFD9DF;
+	float: right;
+	color: #000;
+	font-family: Times New Roman;
+	
+	
+}
+.fotoproducto {
+	width: 26%;
+	height: 20em;
+	font-size: 120%;
+	background-color: #62A5AC;
+	float: right;
+	color: #000000;
+	padding-left: 3em;
+	border-radius: 1em;
+	margin: 0.6em;
+}
+
+
+.fotoproducto img {	
+	border-radius: 0.1em;
+	width: 80%;
+	}
+	
+.fotoubicacion {
+	float: center;
+}
+
+nav
+{ 
+   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+   color: #000000;
+   background-color: #62A5AC;
+   width: 100%;
+   text-align: center;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   
+}
+
+nav a:link,a:visited,a:hover,a:active { 
+	color: #000000;
+	border: 2.5px #01DFD7 solid;
+	background-color: #BFD9DF;
+	padding: 0.9em;
+	text-decoration: none;
+	}
+
+.actual {
+	font-weight: bold;
+	}
+	
+footer {
+	text-align: center;
+    color: #0000;
+    background-color: #62A5AC;
+    width: 100%;
+}
+
+.css-button-3dblue-- {
+	min-width: 130px;
+	height: 40px;
+	color: #fff;
+	padding: 5px 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+	background: #3d348b;
+	box-shadow: 0 5px #2c0b8e;
+  }
+  .css-button-3d--blue:hover {
+	box-shadow: 0 3px #2c0b8e;
+	top: 1px;
+  }
+  .css-button-3d--blue:active {
+	box-shadow: 0 0 #2c0b8e;
+	top: 5px;
+  }
+
+
+  form {
+    background-color: #d11b1b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	max-width: 400px;
+    width: 100%; 
+    margin: 20px auto; 
+}
+	
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="number"], input[type="text"], input[type="email"] {
+    background-color: #f9f9f9;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
